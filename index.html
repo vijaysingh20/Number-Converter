@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Converter</title>
+</head>
+<body>
+    <main class="main-container">
+        <h1>Number Converter</h1>
+        <div class="type">
+            <div class="from-div">
+                <label for="from"><h2>From</h2></label>
+                <select name="from" id="from">
+                    <option value="Decimal">Decimal</option>
+                    <option value="Binary">Binary</option>
+                    <option value="Octal">Octal</option>
+                    <option value="Hexadecimal">Hexadecimal</option>
+                </select>
+            </div>
+            <div class="to-div">
+                <label for="to"><h2>To</h2></label>
+                <select name="to" id="to">
+                    <option value="Decimal">Decimal</option>
+                    <option value="Binary">Binary</option>
+                    <option value="Octal">Octal</option>
+                    <option value="Hexadecimal">Hexadecimal</option>
+                </select>
+            </div>  
+        </div>
+        <input type="text" id="input" placeholder="Enter the number">
+        <div class="buttons">
+            <button id="convert">Convert</button>
+            <button id="swap">Swap</button>
+        </div>
+        <section>
+            <label for="result"><h2>Converted Result:</h2></label>
+            <textarea name="result" id="result" cols="22" rows="1" onkeydown="return false"></textarea>
+        </section>
+ 
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.main-container {
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+    border: 5px solid white;
+}
+
+h1, h2{
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.type {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+select {
+    width: 180px;
+    height: 50px;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+    -webkit-appearance: none;
+    background-position-x: 244px;
+    line-height: 1;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#input {
+    width: 390px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    background-color: #ddd;
+}
+
+.buttons {
+   padding: 20px;
+}
+
+button {
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to right, rgb(40, 101, 151), rgb(28, 10, 131));
+    margin: 10px;
+    font-style: italic;
+}
+
+#result {
+    background-color: #ddd;
+    font-size: 30px;
+    margin: 10px;
+    font-style: italic;
+    resize: none;
+    text-align: center;
+    padding: 10px 0;
+}
